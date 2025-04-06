@@ -45,3 +45,12 @@ console.log(result);
 // Type Operators
 console.log(typeof a); // Type of
 console.log(a instanceof Number); // Instance of
+// Comparison for non-number
+let str1 = "hello";
+let str2 = "world";
+console.log(str1 == str2); // Equal to
+console.log(str1 === str2); // Strict equal to
+console.log(str1 != str2); // Not equal to
+console.log(str1 !== str2); // Strict not equal to
+console.log(str1 > str2); // Greater than (lexicographical comparison)
+console.log(str1 < str2); // Less than (lexicographical comparison)
